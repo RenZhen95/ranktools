@@ -19,6 +19,10 @@ def get_ranks_inplace(_list):
     -------
     ranks : list
      - List containing ranks of element in given list/array
+
+    TODO:
+    1. Allow option for ascending/descending
+    2. Allow option for starting top index from 1, instead of just 0
     '''
     res_tmp = -_list
 
